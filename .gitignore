@@ -1,22 +1,9 @@
-# Python
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-htmlcov/
-
-# Environments and local configuration
-.venv/
-.venv-*/
-venv/
-env/
+# Local configuration and credentials
 .env
 .env.*
 !.env.example
 
-# Models, caches, and large generated artifacts
+# Model weights and generated archives
 models/
 weights/
 checkpoints/
@@ -29,13 +16,18 @@ checkpoints/
 *.tar
 *.tar.gz
 
-# Private/raw datasets and per-image outputs
-data/raw/
-data/private/
+# Private/raw datasets and full prediction outputs
+data/
 predictions/
 segmentation_results/
-*_per_image.csv
-*_per_instance.csv
+
+# Caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.venv-*/
+venv/
 
 # Editors and OS
 .idea/

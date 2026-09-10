@@ -1,3 +1,5 @@
+[English](README.md) | **简体中文**
+
 # 四模型细菌实例分割对比
 
 Cellpose-SAM `cpsam_v2`、Omnipose `bact_phase_omnitorch_0`、Omnipose `bact_fluor_omnitorch_0`、MicroSAM DeepBacs Specialist（ViT-L + AIS decoder）。
