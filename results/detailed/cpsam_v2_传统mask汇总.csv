@@ -1,0 +1,3 @@
+﻿model,modality_group,n_samples,mean_fg_dice,mean_boundary_f1
+Cellpose-SAM_cpsam_v2,Brightfield,3,0.6159,0.6397333333333334
+Cellpose-SAM_cpsam_v2,Fluorescence,6,0.6765666666666666,0.5877333333333333

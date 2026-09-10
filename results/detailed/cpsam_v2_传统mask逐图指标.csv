@@ -1,0 +1,10 @@
+﻿n_gt,n_pred,abs_count_error,rel_count_error,tp_50,fp_50,fn_50,ap_50,precision_50,recall_50,tp_75,fp_75,fn_75,ap_75,precision_75,recall_75,fg_iou,fg_dice,boundary_precision,boundary_recall,boundary_f1,split_count,merge_count,sample_id,modality_group,model
+6,6,0,0.0,3,3,3,0.3333,0.5,0.5,3,3,3,0.3333,0.5,0.5,0.7878,0.8813,0.9934,0.8553,0.9192,1,0,GEN_BF_Sparse_02,Brightfield,Cellpose-SAM_cpsam_v2
+16,19,3,0.1875,15,4,1,0.75,0.7895,0.9375,13,6,3,0.5909,0.6842,0.8125,0.935,0.9664,1.0,1.0,1.0,3,0,GEN_BF_Dense_02,Brightfield,Cellpose-SAM_cpsam_v2
+6,0,6,1.0,0,0,6,0.0,0.0,0.0,0,0,6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,GEN_BF_Dense_03,Brightfield,Cellpose-SAM_cpsam_v2
+8,8,0,0.0,8,0,0,1.0,1.0,1.0,8,0,0,1.0,1.0,1.0,0.8054,0.8922,0.9419,0.9065,0.9239,0,0,GEN_FL_Strong_01,Fluorescence,Cellpose-SAM_cpsam_v2
+94,97,3,0.0319,73,24,21,0.6186,0.7526,0.7766,0,97,94,0.0,0.0,0.0,0.5536,0.7126,0.3276,0.2991,0.3127,5,0,GEN_FL_Strong_02,Fluorescence,Cellpose-SAM_cpsam_v2
+4,6,2,0.5,3,3,1,0.4286,0.5,0.75,3,3,1,0.4286,0.5,0.75,0.9576,0.9784,1.0,1.0,1.0,1,0,GEN_FL_Normal_01,Fluorescence,Cellpose-SAM_cpsam_v2
+7,0,7,1.0,0,0,7,0.0,0.0,0.0,0,0,7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,GEN_FL_Weak_01,Fluorescence,Cellpose-SAM_cpsam_v2
+52,64,12,0.2308,14,50,38,0.1373,0.2188,0.2692,1,63,51,0.0087,0.0156,0.0192,0.37,0.5402,0.287,0.2975,0.2922,1,0,GEN_FAIL_LowContrast_01,Fluorescence,Cellpose-SAM_cpsam_v2
+79,94,15,0.1899,72,22,7,0.7129,0.766,0.9114,61,33,18,0.5446,0.6489,0.7722,0.8797,0.936,1.0,0.9952,0.9976,16,0,GEN_FAIL_Complex_02,Fluorescence,Cellpose-SAM_cpsam_v2

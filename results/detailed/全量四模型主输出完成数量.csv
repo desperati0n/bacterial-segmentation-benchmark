@@ -1,0 +1,5 @@
+﻿model,completed,expected
+Cellpose-SAM_cpsam_v2,2902,2902
+MicroSAM_DeepBacs,2902,2902
+Omnipose_bact_phase_omnitorch_0,1691,1691
+Omnipose_bact_fluor_omnitorch_0,1211,1211

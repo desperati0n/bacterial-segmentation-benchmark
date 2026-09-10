@@ -1,0 +1,7 @@
+﻿modality,model,n_source_groups,macro_mean_fg_dice,macro_mean_boundary_f1,macro_median_relative_count_error
+Brightfield/Phase,Cellpose-SAM_cpsam_v2,2,0.011169763250498257,0.47192010696935727,13.0
+Brightfield/Phase,MicroSAM_DeepBacs,2,0.009343468718858994,0.5940361381259343,16.0
+Brightfield/Phase,Omnipose_bact_phase_omnitorch_0,2,0.07452483830032386,0.4255273913178874,45.5
+Fluorescence,Cellpose-SAM_cpsam_v2,3,0.25826874186095355,0.31948791010291955,8.0
+Fluorescence,MicroSAM_DeepBacs,3,0.19151558916194078,0.41179192606595255,7.0
+Fluorescence,Omnipose_bact_fluor_omnitorch_0,3,0.23714912623398443,0.3893779542113001,7.0

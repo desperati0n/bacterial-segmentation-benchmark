@@ -1,0 +1,6 @@
+﻿source_group,modality,n_samples
+20221205 BF,Brightfield/Phase,576
+BF,Brightfield/Phase,1115
+FL,Fluorescence,1058
+fluorescence-之前的数据分割效果不好与传统分割算法效果对比,Fluorescence,138
+细菌打标,Fluorescence,15

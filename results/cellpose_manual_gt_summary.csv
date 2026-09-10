@@ -1,0 +1,2 @@
+﻿model,n_samples,mean_ap50,mean_ap75,mean_fg_iou,mean_fg_dice,mean_boundary_f1,median_relative_count_error,split_count,merge_count
+Cellpose-SAM_cpsam_v2,11,0.3322090909090909,0.01829090909090909,0.5098818181818182,0.6693181818181819,0.3495545454545454,0.046,284,121

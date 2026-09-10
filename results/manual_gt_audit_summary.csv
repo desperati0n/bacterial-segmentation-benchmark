@@ -1,0 +1,4 @@
+﻿category,count,note
+人工/人工候选掩码总数,15,manifest 中 reference_type 以 manual 开头
+可直接用于定量的人工 GT,11,当前四模型均已跑过
+待复核或排除,4,1 张空间错位，3 张含渲染伪影/异常颜色

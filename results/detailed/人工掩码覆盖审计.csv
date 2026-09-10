@@ -1,0 +1,16 @@
+﻿sample_id,modality,channel,has_manual_label,label_type,reference_type,reference_valid,evaluation_status,reason_for_scope,raw_relative_path,reference_relative_path,four_model_masks
+GT_sfGFP_00025_1,Fluorescence,sfGFP,Yes,Instance_Mask_Verified,manual_gt,Yes,可直接用于定量,valid manual instance GT,细菌打标/BaseImage/imagesfGFP00025-1.tif,细菌打标/Mask/imagesfGFP00025-1.bmp,4
+GT_sfGFP_00025_2,Fluorescence,sfGFP,Yes,Instance_Mask_Verified,manual_gt,Yes,可直接用于定量,valid manual instance GT,细菌打标/BaseImage/imagesfGFP00025-2.tif,细菌打标/Mask/imagesfGFP00025-2.bmp,4
+GT_sfGFP_00025_3,Fluorescence,sfGFP,Yes,Instance_Mask_Verified,manual_gt,Yes,可直接用于定量,valid manual instance GT,细菌打标/BaseImage/imagesfGFP00025-3.tif,细菌打标/Mask/imagesfGFP00025-3.bmp,4
+GT_sfGFP_00025_4,Fluorescence,sfGFP,Yes,Instance_Mask_Verified,manual_gt,Yes,可直接用于定量,valid manual instance GT,细菌打标/BaseImage/imagesfGFP00025-4.tif,细菌打标/Mask/imagesfGFP00025-4.bmp,4
+GT_sfGFP_00130_1,Fluorescence,sfGFP,Yes,Instance_Mask_Verified,manual_gt,Yes,可直接用于定量,valid manual instance GT,细菌打标/BaseImage/imagesfGFP00130-1.tif,细菌打标/Mask/imagesfGFP00130-1.bmp,4
+GT_sfGFP_00130_2,Fluorescence,sfGFP,Yes,Instance_Mask_Verified,manual_misaligned_excluded,No,待复核或排除,人工掩码与原图空间错位（画廊复核及前景-强度对齐审计），排除定量,细菌打标/BaseImage/imagesfGFP00130-2.tif,,4
+GT_sfGFP_00130_3,Fluorescence,sfGFP,Yes,Instance_Mask_Verified,manual_gt,Yes,可直接用于定量,valid manual instance GT,细菌打标/BaseImage/imagesfGFP00130-3.tif,细菌打标/Mask/imagesfGFP00130-3.bmp,4
+GT_sfGFP_00130_4,Fluorescence,sfGFP,Yes,Instance_Mask_Verified,manual_gt,Yes,可直接用于定量,valid manual instance GT,细菌打标/BaseImage/imagesfGFP00130-4.tif,细菌打标/Mask/imagesfGFP00130-4.bmp,4
+GT_mScarletI_00219_1,Fluorescence,mScarletI,Yes,Instance_Mask_Verified,manual_gt,Yes,可直接用于定量,valid manual instance GT,细菌打标/BaseImage/imagemScarletI00219-1.tif,细菌打标/Mask/imagemScarletI00219-1.bmp,4
+GT_mScarletI_00219_3,Fluorescence,mScarletI,Yes,Instance_Mask_Verified,manual_gt,Yes,可直接用于定量,valid manual instance GT,细菌打标/BaseImage/imagemScarletI00219-3.tif,细菌打标/Mask/imagemScarletI00219-3.bmp,4
+GT_mScarletI_00219_4,Fluorescence,mScarletI,Yes,Instance_Mask_Verified,manual_gt,Yes,可直接用于定量,valid manual instance GT,细菌打标/BaseImage/imagemScarletI00219-4.tif,细菌打标/Mask/imagemScarletI00219-4.bmp,4
+GT_CyOFP_00033_1,Fluorescence,CyOFP,Audited_Special,Binary_MultiClass_Audited,manual_gt,Yes,可直接用于定量,valid manual instance GT,细菌打标/BaseImage/imageCyOFP00033-1.tif,细菌打标/Mask/imageCyOFP00033-1.bmp,4
+GT_CyOFP_00033_2,Fluorescence,CyOFP,Audited_Defect,Corrupted_Render_Artifact_Audited,manual_corrupt_excluded,No,待复核或排除,人工掩码含渲染伪影/异常颜色，按原审计结论排除定量,细菌打标/BaseImage/imageCyOFP00033-2.tif,,4
+GT_CyOFP_00033_3,Fluorescence,CyOFP,Audited_Defect,Corrupted_Render_Artifact_Audited,manual_corrupt_excluded,No,待复核或排除,人工掩码含渲染伪影/异常颜色，按原审计结论排除定量,细菌打标/BaseImage/imageCyOFP00033-3.tif,,4
+GT_mScarletI_00219_2,Fluorescence,mScarletI,Audited_Defect,Corrupted_Render_Artifact_Audited,manual_corrupt_excluded,No,待复核或排除,人工掩码含渲染伪影/异常颜色，按原审计结论排除定量,细菌打标/BaseImage/imagemScarletI00219-2.tif,,4
