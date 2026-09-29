@@ -117,13 +117,19 @@ Omnipose was routed by modality: `bact_phase_omnitorch_0` was evaluated only on 
 | Modality | References | Model | Foreground Dice | Boundary F1 | Median relative count error | Splits | Merges |
 |---|---:|---|---:|---:|---:|---:|---:|
 | Brightfield/phase | 1,691 | Cellpose-SAM `cpsam_v2` | 0.0109 | 0.4992 | 15.0 | 0 | 0 |
-| Brightfield/phase | 1,691 | MicroSAM DeepBacs | 0.0097 | **0.6164** | 16.0 | 0 | 0 |
+| Brightfield/phase | 1,691 | MicroSAM DeepBacs | 0.0097 | **0.6164** | 19.0 | 0 | 0 |
 | Brightfield/phase | 1,691 | Omnipose `bact_phase` | **0.0801** | 0.4357 | 51.0 | 1 | 0 |
 | Fluorescence | 1,211 | Cellpose-SAM `cpsam_v2` | **0.0488** | 0.3155 | 9.0 | 339 | 145 |
 | Fluorescence | 1,211 | MicroSAM DeepBacs | 0.0277 | 0.2955 | **8.0** | **90** | **116** |
 | Fluorescence | 1,211 | Omnipose `bact_fluor` | 0.0480 | **0.3675** | **8.0** | 187 | 315 |
 
 Reference source, rendering, batch, and sequence length affect these averages. Directory-equal-weighted fluorescence Dice was 0.2583 for Cellpose, 0.1915 for MicroSAM, and 0.2371 for `bact_fluor`, reinforcing the need to interpret global means alongside strata.
+
+The overview below uses all 8,706 per-image model results from 2,902 source images. Solid bars average over images; hatched bars average source directories equally after calculating each directory mean. These are agreement scores against existing processed masks, not human-GT accuracy. The plotted values are in [`results/detailed/全量结果总览_按模态与权重.csv`](../results/detailed/全量结果总览_按模态与权重.csv).
+
+Per-image details, overall summaries, source-stratified summaries, and the read-error inventory are available under [`results/detailed/`](../results/detailed/). The read-error inventory is empty; historical BMP/JPEG content was included through an image-decoding fallback.
+
+![Overview of all 2,902 images](../figures/metrics/全量结果总览_2902张.png)
 
 ![Full-set modality coverage](../figures/metrics/全量数据覆盖_按模态.png)
 
@@ -134,8 +140,6 @@ Reference source, rendering, batch, and sequence length affect these averages. D
 ![Fluorescence agreement distribution](../figures/metrics/全量参考mask一致性_荧光_逐图分布.png)
 
 ![Samples by source batch](../figures/metrics/全量样本数_按资料目录批次分层.png)
-
-Per-image details, overall summaries, source-stratified summaries, and the read-error inventory are available under [`results/detailed/`](../results/detailed/). The read-error inventory is empty; historical BMP/JPEG content was included through an image-decoding fallback.
 
 ## 4. Comprehensive evaluation framework
 

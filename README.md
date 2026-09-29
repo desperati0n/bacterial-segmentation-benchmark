@@ -16,6 +16,16 @@ This repository documents a comparison of Cellpose-SAM, MicroSAM DeepBacs, Omnip
 
 ## Key results
 
+### Full-set results: 2,902 source images
+
+The figure below uses all 8,706 saved per-image model results, split into 1,691 brightfield/phase and 1,211 fluorescence images. Solid bars average over images; hatched bars weight source directories equally. The reference masks include historical algorithms and processed output, so these values measure **agreement**, not human-GT accuracy. [View the plotted data](results/detailed/全量结果总览_按模态与权重.csv).
+
+Run `python scripts/build_full_results_chart.py` to rebuild the chart from the repository's per-image CSV (requires pandas and matplotlib).
+
+![Overview of all 2,902 images](figures/metrics/全量结果总览_2902张.png)
+
+### Human-GT accuracy: 11 fluorescence images
+
 The table below uses the 11 fluorescence GT images that passed quality review. The sample size is limited, so these results support engineering decisions and failure analysis rather than a universal leaderboard.
 
 | Model | AP@0.50 ↑ | AP@0.75 ↑ | Foreground Dice ↑ | Boundary F1 ↑ | Median relative count error ↓ | Splits ↓ | Merges ↓ |
